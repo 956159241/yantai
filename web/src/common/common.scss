@@ -1,0 +1,5 @@
+@import './variables.scss';
+body{background-color: rgb(232,241,248);}
+.box{max-width: 1600px;margin: 0 auto;box-shadow: 6px 1px 15px #e1e1e1,-6px 1px 15px #e1e1e1;background-color: rgb(255,255,255);}
+.location>span>.home-link{cursor:pointer;}
+

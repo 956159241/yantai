@@ -1,0 +1,23 @@
+<template lang="jade">
+    .slider-arrows-wrap
+      span.slider-arrow.slider-arrow-left(@click="turn(-1)")<img src="../../../static/img/right.png">
+      span.slider-arrow.slider-arrow-right(@click="turn(1)")<img src="../../../static/img/left.png">
+</template>
+
+<script>
+  export default {
+    name: 'SliderArrows',
+    props: {
+      turn: {
+        type: Function,
+        required: true
+      }
+    }
+  }
+</script>
+
+<style>
+  span {
+    font-size: 14px;
+  }
+</style>

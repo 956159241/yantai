@@ -1,0 +1,447 @@
+import './views/home.vue'
+import './views/home-1.vue'
+import './views/home-2.vue'
+import './views/home-cards-1.vue'
+import './views/JF.vue'
+import './views/JF-Introduce.vue'
+import './views/JF-Manage.vue'
+import './views/JF-Team.vue'
+import './views/JF-Expert.vue'
+import './views/PS.vue'
+import './views/PS-Fortune.vue'
+import './views/PS-Fortune-Bank.vue'
+import './views/PS-Fortune-Office.vue'
+import './views/PS-Fortune-Finance.vue'
+import './views/PS-Fortune-Develop.vue'
+import './views/PS-StockRights.vue'
+import './views/PS-Finance.vue'
+import './views/PS-Finance-Economics-List-1.vue'
+import './views/PS-Finance-Economics-List-2.vue'
+import './views/PS-Finance-Economics-List-3.vue'
+import './views/PS-Finance-Economics-List-4.vue'
+import './views/PS-Finance-Economics-List-5.vue'
+import './views/PS-Finance-Train.vue'
+import './views/PS-Finance-Train-lesson-1.vue'
+import './views/PS-Finance-Train-lesson-2.vue'
+import './views/PS-Finance-Train-lesson-3.vue'
+import './views/Lesson-Empty.vue'
+import './views/PS-Finance-Study.vue'
+import './views/PS-Finance-Space.vue'
+import './views/News.vue'
+import './views/News-Share.vue'
+import './views/News-Share-2015.vue'
+import './views/News-Share-2015-List-1.vue'
+import './views/News-Share-2015-List-2.vue'
+import './views/News-Share-2015-List-3.vue'
+import './views/News-Share-2015-List-4.vue'
+import './views/News-Box.vue'
+import './views/News-Dynamic.vue'
+import './views/dynamicListOne.vue'
+import './views/Contact.vue'
+import './views/Contact-Addr.vue'
+import './views/Contact-Join.vue'
+import './views/Contact-Join-1.vue'
+import './views/Contact-Join-2.vue'
+import './views/Contact-Join-3.vue'
+import './views/News-List-1.vue'
+import './views/News-List-2.vue'
+import './views/News-Share-List-3.vue'
+import './views/News-Share-List-4.vue'
+import './views/News-Share-List-5.vue'
+import './views/News-Share-List-6.vue'
+import './views/Share-List-1.vue'
+import './views/Share-List-2.vue'
+import './views/Share-List-3.vue'
+import './views/Share-List-4.vue'
+import './views/Box-List-1.vue'
+import './views/Box-List-2.vue'
+import './views/Box-List-3.vue'
+import './views/Box-List-4.vue'
+// import './views/about.vue'
+// import './views/serviceRouter.vue'
+
+export default function (router) {
+  router.map({
+    '/home': {
+      component (resolve) {
+        require(['./views/home.vue'], resolve)
+      },
+      title: '吉梵首页'
+    },
+    '/home-cards-1': {
+      component (resolve) {
+        require(['./views/home-cards-1.vue'], resolve)
+      },
+      title: '吉梵首页'
+    },
+    '/JF': {
+      component (resolve) {
+        require(['./views/JF.vue'], resolve)
+      },
+      subRoutes: {
+
+      },
+      title: '走进吉梵'
+    },
+    '/JF-Introduce': {
+      component (resolve) {
+        require(['./views/JF-Introduce.vue'], resolve)
+      },
+      title: '吉梵简介'
+    },
+    '/JF-Manage': {
+      component (resolve) {
+        require(['./views/JF-Manage.vue'], resolve)
+      },
+      title: '高管介绍'
+    },
+    '/JF-Team': {
+      component (resolve) {
+        require(['./views/JF-Team.vue'], resolve)
+      },
+      title: '团队介绍'
+    },
+    '/JF-Expert': {
+      component (resolve) {
+        require(['./views/JF-Expert.vue'], resolve)
+      },
+      title: '走进吉梵'
+    },
+    '/PS': {
+      component (resolve) {
+        require(['./views/PS.vue'], resolve)
+      },
+      title: '产品与服务'
+    },
+    '/PS-Fortune': {
+      component (resolve) {
+        require(['./views/PS-Fortune.vue'], resolve)
+      },
+      title: '产品与服务'
+    },
+    '/PS-Fortune-Bank': {
+      component (resolve) {
+        require(['./views/PS-Fortune-Bank.vue'], resolve)
+      },
+      title: '产品与服务'
+    },
+    '/PS-Fortune-Office': {
+      component (resolve) {
+        require(['./views/PS-Fortune-Office.vue'], resolve)
+      },
+      title: '产品与服务'
+    },
+    '/PS-Fortune-Finance': {
+      component (resolve) {
+        require(['./views/PS-Fortune-Finance.vue'], resolve)
+      },
+      title: '产品与服务'
+    },
+    '/PS-Fortune-Develop': {
+      component (resolve) {
+        require(['./views/PS-Fortune-Develop.vue'], resolve)
+      },
+      title: '产品与服务'
+    },
+    '/PS-StockRights': {
+      component (resolve) {
+        require(['./views/PS-StockRights.vue'], resolve)
+      },
+      title: '产品与服务'
+    },
+    '/PS-Finance': {
+      component (resolve) {
+        require(['./views/PS-Finance.vue'], resolve)
+      },
+      title: '产品与服务'
+    },
+    '/PS-Finance-Economics-List-1': {
+      component (resolve) {
+        require(['./views/PS-Finance-Economics-List-1.vue'], resolve)
+      },
+      title: '财经沙龙'
+    },
+    '/PS-Finance-Economics-List-2': {
+      component (resolve) {
+        require(['./views/PS-Finance-Economics-List-2.vue'], resolve)
+      },
+      title: '财经沙龙'
+    },
+    '/PS-Finance-Economics-List-3': {
+      component (resolve) {
+        require(['./views/PS-Finance-Economics-List-3.vue'], resolve)
+      },
+      title: '财经沙龙'
+    },
+    '/PS-Finance-Economics-List-4': {
+      component (resolve) {
+        require(['./views/PS-Finance-Economics-List-4.vue'], resolve)
+      },
+      title: '财经沙龙'
+    },
+    '/PS-Finance-Economics-List-5': {
+      component (resolve) {
+        require(['./views/PS-Finance-Economics-List-5.vue'], resolve)
+      },
+      title: '财经沙龙'
+    },
+    '/PS-Finance-Train': {
+      component (resolve) {
+        require(['./views/PS-Finance-Train.vue'], resolve)
+      },
+      title: '产品与服务'
+    },
+    '/PS-Finance-Train-lesson-1': {
+      component (resolve) {
+        require(['./views/PS-Finance-Train-lesson-1.vue'], resolve)
+      },
+      title: '产品与服务'
+    },
+    '/PS-Finance-Train-lesson-2': {
+      component (resolve) {
+        require(['./views/PS-Finance-Train-lesson-2.vue'], resolve)
+      },
+      title: '产品与服务'
+    },
+    '/PS-Finance-Train-lesson-3': {
+      component (resolve) {
+        require(['./views/PS-Finance-Train-lesson-3.vue'], resolve)
+      },
+      title: '产品与服务'
+    },
+    '/Lesson-Empty': {
+      component (resolve) {
+        require(['./views/Lesson-Empty.vue'], resolve)
+      },
+      title: '产品与服务'
+    },
+    '/Train-Aoyu-Lesson-1': {
+      component (resolve) {
+        require(['./views/Train-Aoyu-Lesson-1.vue'], resolve)
+      },
+      title: '产品与服务'
+    },
+    '/Train-Aoyu-Lesson-2': {
+      component (resolve) {
+        require(['./views/Train-Aoyu-Lesson-2.vue'], resolve)
+      },
+      title: '产品与服务'
+    },
+    '/PS-Finance-Study': {
+      component (resolve) {
+        require(['./views/PS-Finance-Study.vue'], resolve)
+      },
+      title: '产品与服务'
+    },
+    '/PS-Finance-Space': {
+      component (resolve) {
+        require(['./views/PS-Finance-Space.vue'], resolve)
+      },
+      title: '产品与服务'
+    },
+    '/News-Share': {
+      component (resolve) {
+        require(['./views/News-Share.vue'], resolve)
+      },
+      title: '新闻资讯'
+    },
+    '/News-Share-2015': {
+      component (resolve) {
+        require(['./views/News-Share-2015.vue'], resolve)
+      },
+      title: '新闻资讯'
+    },
+    '/News-Dynamic': {
+      component (resolve) {
+        require(['./views/News-Dynamic.vue'], resolve)
+      },
+      title: '新闻资讯'
+    },
+    '/dynamicListOne': {
+      component (resolve) {
+        require(['./views/dynamicListOne.vue'], resolve)
+      },
+      title: '吉梵动态'
+    },
+    '/News-Box': {
+      component (resolve) {
+        require(['./views/News-Box.vue'], resolve)
+      },
+      title: '新闻资讯'
+    },
+    '/Contact-Addr': {
+      component (resolve) {
+        require(['./views/Contact-Addr.vue'], resolve)
+      },
+      title: '联系我们'
+    },
+    '/Contact-Join': {
+      component (resolve) {
+        require(['./views/Contact-Join.vue'], resolve)
+      },
+      title: '联系我们'
+    },
+    '/Contact-Join-1': {
+      component (resolve) {
+        require(['./views/Contact-Join-1.vue'], resolve)
+      },
+      title: '联系我们'
+    },
+    '/Contact-Join-2': {
+      component (resolve) {
+        require(['./views/Contact-Join-2.vue'], resolve)
+      },
+      title: '联系我们'
+    },
+    '/Contact-Join-3': {
+      component (resolve) {
+        require(['./views/Contact-Join-3.vue'], resolve)
+      },
+      title: '联系我们'
+    },
+    '/home-1': {
+      component (resolve) {
+        require(['./views/home-1.vue'], resolve)
+      },
+      title: '吉梵'
+    },
+    '/home-2': {
+      component (resolve) {
+        require(['./views/home-2.vue'], resolve)
+      },
+      title: '吉梵'
+    },
+    '/News-List-1': {
+      component (resolve) {
+        require(['./views/News-List-1.vue'], resolve)
+      },
+      title: '吉梵新闻'
+    },
+    '/News-List-2': {
+      component (resolve) {
+        require(['./views/News-List-2.vue'], resolve)
+      },
+      title: '吉梵新闻'
+    },
+    '/News-Share-List-3': {
+      component (resolve) {
+        require(['./views/News-Share-List-3.vue'], resolve)
+      },
+      title: '吉梵新闻'
+    },
+    '/News-Share-List-4': {
+      component (resolve) {
+        require(['./views/News-Share-List-4.vue'], resolve)
+      },
+      title: '吉梵新闻'
+    },
+    '/News-Share-List-5': {
+      component (resolve) {
+        require(['./views/News-Share-List-5.vue'], resolve)
+      },
+      title: '吉梵新闻'
+    },
+    '/News-Share-List-6': {
+      component (resolve) {
+        require(['./views/News-Share-List-6.vue'], resolve)
+      },
+      title: '吉梵新闻'
+    },
+    '/News-Share-2015-List-1': {
+      component (resolve) {
+        require(['./views/News-Share-2015-List-1.vue'], resolve)
+      },
+      title: '吉梵新闻2015'
+    },
+    '/News-Share-2015-List-2': {
+      component (resolve) {
+        require(['./views/News-Share-2015-List-2.vue'], resolve)
+      },
+      title: '吉梵新闻2015'
+    },
+    '/News-Share-2015-List-3': {
+      component (resolve) {
+        require(['./views/News-Share-2015-List-3.vue'], resolve)
+      },
+      title: '吉梵新闻2015'
+    },
+    '/News-Share-2015-List-4': {
+      component (resolve) {
+        require(['./views/News-Share-2015-List-4.vue'], resolve)
+      },
+      title: '吉梵新闻2015'
+    },
+    '/Share-List-1': {
+      component (resolve) {
+        require(['./views/Share-List-1.vue'], resolve)
+      },
+      title: '吉梵分享'
+    },
+    '/Share-List-2': {
+      component (resolve) {
+        require(['./views/Share-List-2.vue'], resolve)
+      },
+      title: '吉梵分享'
+    },
+    '/Share-List-3': {
+      component (resolve) {
+        require(['./views/Share-List-3.vue'], resolve)
+      },
+      title: '吉梵分享'
+    },
+    '/Share-List-4': {
+      component (resolve) {
+        require(['./views/Share-List-4.vue'], resolve)
+      },
+      title: '吉梵分享'
+    },
+    '/Box-List-1': {
+      component (resolve) {
+        require(['./views/Box-List-1.vue'], resolve)
+      },
+      title: '吉梵专栏'
+    },
+    '/Box-List-2': {
+      component (resolve) {
+        require(['./views/Box-List-2.vue'], resolve)
+      },
+      title: '吉梵专栏'
+    },
+    '/Box-List-3': {
+      component (resolve) {
+        require(['./views/Box-List-3.vue'], resolve)
+      },
+      title: '吉梵专栏'
+    },
+    '/Box-List-4': {
+      component (resolve) {
+        require(['./views/Box-List-4.vue'], resolve)
+      },
+      title: '吉梵专栏'
+    }
+  })
+
+  router.redirect({
+    '/JF': '/JF/JF-Introduce',
+    '/JF/*': '/JF/JF-Introduce',
+    '/PS': '/PS/PS-Fortune',
+    '/PS/*': '/PS/PS-Fortune',
+    // 重定向任意未匹配路径到 /home
+    '*': '/home'
+  })
+  router.beforeEach(({to, from, next, abort}) => {
+    let toPath = to.path
+    let fromPath = from.path
+    console.log('to: ' + toPath + ' from: ' + fromPath)
+    // if (process.env.NODE_ENV === 'development') {
+    if (0 && process.env.NODE_ENV === 'development') {
+      Promise.resolve(next()).then(() => {
+        Array.from(document.querySelectorAll('body *')).forEach((dom) => {
+          dom.style.outline = '1px solid #' + (~~(Math.random() * (1 << 24))).toString(16)
+        })
+      })
+    } else {
+      next()
+    }
+  })
+}
