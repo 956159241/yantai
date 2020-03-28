@@ -1,3 +1,0 @@
-@import './variables.scss';
-.box{width: 1380px;margin: 0 auto;box-shadow: 6px 1px 15px #e1e1e1,-6px 1px 15px #e1e1e1;background-color: rgb(245,245,245);}
-.location>span>.home-link{cursor:pointer;}

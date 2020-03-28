@@ -1,3 +1,0 @@
-@import 'common/variables.scss';
-
-.page { clear: both; }
