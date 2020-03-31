@@ -3,7 +3,7 @@
     <div class="ui container">
       <div class="ui segment bottom">
         <p>沪ICP备xxxxxxxxx号-1</p>
-        <p>电话：021-58601299地址：上海市虹口区东大名路588号美特斯邦威大厦三楼</p>
+        <p>电话：021-123456789 地址：上海市虹口区东大名路1236号</p>
         <p>免责声明：本网站所刊登、转载的各种图片、稿件是为传播更多信息，本网站不承担此类稿件侵权行为的连带责任</p>
       </div>
     </div>
@@ -13,7 +13,6 @@
   export default{
     data () {
       return {
-        msg: 'footer'
       }
     }
   }
